@@ -5,16 +5,27 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReckNer-ConfigWebSite", "ReckNer-ConfigWebSite\ReckNer-ConfigWebSite.csproj", "{BD20133A-D4DF-4A25-A3F9-9020F382D6D1}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ReckNer-ConfigInstaller", "ReckNer-ConfigInstaller\ReckNer-ConfigInstaller.vdproj", "{18883D72-FB23-46C3-9A14-AC769E9EC0D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|Any CPU = All|Any CPU
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD20133A-D4DF-4A25-A3F9-9020F382D6D1}.All|Any CPU.ActiveCfg = Release|Any CPU
+		{BD20133A-D4DF-4A25-A3F9-9020F382D6D1}.All|Any CPU.Build.0 = Release|Any CPU
 		{BD20133A-D4DF-4A25-A3F9-9020F382D6D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BD20133A-D4DF-4A25-A3F9-9020F382D6D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD20133A-D4DF-4A25-A3F9-9020F382D6D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD20133A-D4DF-4A25-A3F9-9020F382D6D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18883D72-FB23-46C3-9A14-AC769E9EC0D9}.All|Any CPU.ActiveCfg = Release
+		{18883D72-FB23-46C3-9A14-AC769E9EC0D9}.All|Any CPU.Build.0 = Release
+		{18883D72-FB23-46C3-9A14-AC769E9EC0D9}.Debug|Any CPU.ActiveCfg = Debug
+		{18883D72-FB23-46C3-9A14-AC769E9EC0D9}.Debug|Any CPU.Build.0 = Debug
+		{18883D72-FB23-46C3-9A14-AC769E9EC0D9}.Release|Any CPU.ActiveCfg = Release
+		{18883D72-FB23-46C3-9A14-AC769E9EC0D9}.Release|Any CPU.Build.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
